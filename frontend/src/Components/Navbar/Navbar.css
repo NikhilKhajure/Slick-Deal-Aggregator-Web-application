@@ -1,0 +1,174 @@
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    color: black;
+    padding: .1rem 0 0 0;
+    background-color: #131324;
+}
+
+.logo img {
+    width: 9rem;
+    height: 3.5rem;
+    margin-left: 1.4rem;
+}
+
+.searchBar {
+    display: flex;
+}
+
+.searchBar input {
+    width: 47vw;
+    height: 5.7vh;
+    border-radius: .4rem 0 0 .4rem;
+    outline: none;
+    padding-left: .5rem;
+    font-size: 1.1rem;
+    border: none;
+    /* background-color: aquamarine; */
+    background-color: transparent;
+    color: white;
+    border: 2px solid white;
+}
+
+.searchBar button {
+    border-radius: 0 .4rem .4rem 0;
+    border: none;
+    background-color: orange;
+
+}
+
+.searchIcon {
+    font-size: 1.5rem;
+    margin: .5rem .6rem;
+    border-radius: 7rem;
+    background: transparent;
+}
+
+.cart {
+    display: flex;
+    align-items: center;
+}
+
+.login {
+    color: white;
+    font-size: 2rem;
+    margin-right: 1rem;
+}
+
+.cart img {
+    width: 30px;
+    margin: 0 1rem 0 0;
+}
+
+.cartLogo {
+    font-size: 2rem;
+    color: white;
+}
+
+.cart button {
+    margin-right: 2rem;
+    margin-top: .5rem;
+}
+
+
+.mainnavbar {
+    display: flex;
+    justify-content: start;
+    background-color: aquamarine;
+}
+
+.sliderbtn {
+    display: flex;
+    margin-left: 3rem;
+    font-size: 1.4rem;
+    align-items: center;
+    margin-right: 2rem;
+    cursor: pointer;
+}
+
+.closeBtn {
+    font-size: 1.6rem;
+    font-weight: 900;
+    cursor: pointer;
+}
+
+.navlist span {
+    cursor: pointer;
+    font-size: 1.2rem;
+    margin: 0 1rem;
+}
+
+.slider {
+    z-index: 1000;
+    position: absolute;
+    top: 0;
+}
+
+.spinner {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 80vh;
+    background-color: #131324;
+    margin-top: 1rem;
+}
+
+/* Active NavLink */
+.nav-link-active {
+    background-color: #007bff;
+    /* Bootstrap primary color */
+    color: white;
+}
+
+/* .active {
+    background-color: #0d6efd;
+    padding: .3rem .7rem;
+    border-radius: .3rem;
+} */
+@media (max-width:1251px) {
+    .searchIcon {
+        font-size: 1.5rem;
+        margin: .6rem .6rem;
+        border-radius: 7rem;
+    }
+}
+
+@media (max-width:825px) {
+    .searchBar input {
+        height: 4.7vh;
+        font-size: .9rem;
+        width: 40vw;
+    }
+
+    .searchIcon {
+        font-size: 1.1rem;
+        margin: .6rem .6rem
+    }
+}
+
+@media (max-width:715px) {
+    .cartLogo {
+        font-size: 1.6rem;
+    }
+
+    .cart button {
+        margin-right: 1.3rem;
+    }
+
+    .btn .badge {
+        font-size: .6rem;
+    }
+
+    .login {
+        margin-right: .1rem;
+    }
+}
+
+@media (max-width:623px) {
+    .logo img {
+        width: 6rem;
+        height: 3rem;
+        margin-left: .3rem;
+    }
+}

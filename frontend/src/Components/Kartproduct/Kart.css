@@ -1,0 +1,80 @@
+.pr_heading {
+    width: 90%;
+    font-size: 2rem;
+    font-weight: 800;
+    margin: 2rem auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.kartcard {
+    width: 90%;
+    margin: auto;
+    background-color: white;
+}
+
+.cartEmpty {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 90vh;
+    font-size: 3rem;
+    font-weight: 800;
+    color: white;
+}
+
+.buttons {
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+}
+
+
+
+/* Compareproducts.css */
+/* Compareproducts.css */
+
+.heading {
+    font-size: 2rem;
+    font-weight: 800;
+}
+
+.tabledata {
+    width: 95%;
+    margin: auto;
+}
+
+.compare-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+.compare-table th,
+.compare-table td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+    cursor: pointer;
+}
+
+.compare-table th {
+    background-color: #f2f2f2;
+    color: black;
+    font-weight: bold;
+}
+
+.compare-table img {
+    max-width: 100px;
+    max-height: 100px;
+    object-fit: cover;
+}
+
+.compare-table tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+.compare-table tr:hover {
+    background-color: #ddd;
+}

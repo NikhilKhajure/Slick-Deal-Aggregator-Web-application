@@ -1,0 +1,315 @@
+/* Heading Css */
+.heading {
+    width: 95%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 3rem;
+    align-items: center;
+}
+
+.heading h4 {
+    font-size: 2rem;
+    font-weight: 500;
+}
+
+.heading button {
+    padding: .3rem 1.8rem;
+    border-radius: .4rem;
+    font-size: 1.2rem;
+    font-weight: 400;
+    background-color: black;
+    color: white;
+}
+
+.heading button:hover {
+    cursor: pointer;
+    background-color: transparent;
+    color: black;
+    transition: all .55s ease-in;
+}
+
+.view_all {
+    text-decoration: none;
+    color: white;
+}
+
+.view_all:hover {
+    color: black;
+    font-weight: 400;
+}
+
+@media (max-width:445px) {
+
+    .heading h4 {
+        font-size: 2rem;
+    }
+}
+
+@media (max-width:393px) {
+
+    .heading h4 {
+        font-size: 1.5rem;
+    }
+
+    .heading button {
+        padding: .5rem 1.6rem;
+        border-radius: .4rem;
+        font-size: 1rem;
+    }
+}
+
+
+.topdeals {
+    width: 95%;
+    margin: 2rem auto;
+}
+
+
+.card {
+    width: 20vw;
+    margin: 1rem;
+    border: none;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    border-radius: 1.5rem;
+}
+
+.card:hover {
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    transform: translate(-10px);
+}
+
+.image {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.image:hover {
+    cursor: pointer;
+}
+
+.viewBtn {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    left: 25%;
+}
+
+.quickViewBtn {
+    background-image: linear-gradient(to top, orange 50%, transparent 50%);
+    background-size: 100% 200%;
+    background-position: top;
+    transition: background-position 0.5s ease-in-out;
+    background-color: rgb(62, 30, 90);
+    padding: 0.4rem 1rem;
+    border-radius: 1rem;
+    cursor: pointer;
+    font-size: 1.1rem;
+    font-weight: 600;
+    color: white;
+    margin: 2rem 0;
+}
+
+.quickViewBtn:hover {
+    background-position: bottom;
+    /* transition: all .55s ease;
+    background: transparent;
+    border: 2px solid black;
+    color: orange; */
+}
+
+.card img {
+    /* width: 90%;
+    height: 90%; */
+    width: 200px;
+    height: 250px;
+    margin: .5rem 3rem;
+}
+
+.cardInfo {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    margin-top: 2rem;
+}
+
+.cardInfo h2 {
+    text-align: center;
+    font-weight: 200;
+    font-size: 1.1rem;
+    color: rgb(73, 105, 105);
+}
+
+.cardInfo h3 {
+    margin-left: .8rem;
+    FONT-SIZE: 1.1rem;
+    font-weight: 500;
+}
+
+.sellerName {
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.cardInfo span {
+    font-weight: 700;
+    color: orange;
+}
+
+.cardInfo:hover {
+    cursor: pointer;
+}
+
+.deals {
+    width: 90%;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+
+.cartMessage {
+    position: absolute;
+    z-index: 2000;
+    right: 0;
+    font-size: 1.3rem;
+    padding: .3rem 1.4rem;
+    border: 2px solid black;
+    border-radius: .5rem;
+    font-weight: 700;
+    z-index: 2000;
+    margin: 2rem 1rem;
+}
+
+.cartMessage button {
+    padding: 0.4rem 1rem;
+    border-radius: .4rem;
+    margin: 0 .3rem;
+}
+
+.productcursol {
+    width: 90%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    cursor: pointer;
+    margin-top: 0;
+}
+
+.productcursol span {
+    font-size: 1.5rem;
+    font-weight: 600;
+    margin: 1.5rem 2rem;
+}
+
+/* Brand Card css */
+
+.brandcard {
+    width: 90%;
+    border-radius: 1.8rem;
+    height: 75vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    cursor: pointer;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    margin-bottom: 2rem;
+    background-color: black;
+}
+
+.brandcard:hover {
+    box-shadow: rgba(129, 104, 104, 0.35) 0px 5px 15px;
+    transform: translate(-5px);
+}
+
+.card-header {
+    padding: 2rem;
+    /* background-color: black; */
+}
+
+.card-header h2 {
+    font-size: 1.7rem;
+    color: white;
+}
+
+.card-header p {
+    margin: .7rem 0;
+    color: white;
+    font-size: 1rem;
+}
+
+.brandCursol {
+    width: 90%;
+    margin: auto;
+    background-color: #f8f9fa;
+    padding-right: 1rem;
+}
+
+@media (max-width:986px) {
+    .card {
+        width: 40vw;
+    }
+
+    .card img {
+        width: 267px;
+        height: 306px;
+        margin: .7rem 3rem;
+    }
+}
+
+@media (max-width:784px) {
+    .card {
+        width: 60vh;
+        margin: auto;
+        margin-top: 1rem;
+    }
+
+    .card img {
+        width: 267px;
+        height: 306px;
+        margin: 1rem 3rem;
+    }
+
+    .cardInfo h2 {
+        font-size: 1.5rem;
+    }
+
+    .cardInfo h3 {
+        font-size: 1.2rem;
+    }
+
+    .cardInfo span {
+        font-size: 1.3rem;
+    }
+}
+
+@media (max-width:700px) {
+    .brandcard {
+        width: 95%;
+        height: 50vh;
+    }
+}
+
+@media (max-width:574px) {
+    .card {
+        width: 50vh;
+    }
+
+    .brandcard {
+        width: 97%;
+        height: 45vh;
+    }
+}
+
+@media (max-width:470px) {
+    .card {
+        width: 45vh;
+    }
+
+    .cardInfo h2 {
+        font-size: 1rem;
+    }
+}

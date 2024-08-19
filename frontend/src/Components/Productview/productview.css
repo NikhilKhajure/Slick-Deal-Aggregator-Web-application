@@ -1,0 +1,169 @@
+.viewProduct {
+    display: flex;
+    /* justify-content: space-between; */
+    align-items: center;
+    width: 95%;
+    margin: auto;
+    margin-top: 2rem;
+    justify-content: center;
+}
+
+.multipleImages {
+    display: flex;
+    flex-direction: column;
+}
+
+.multipleImages img {
+    border: .1px solid rgb(173, 163, 144);
+    padding: .4rem;
+    width: 72%;
+    margin: .8rem 0;
+    border-radius: .5rem;
+    cursor: pointer;
+}
+
+.mainImage {
+    border: .1px solid rgb(173, 163, 144);
+    width: 35%;
+    height: 80vh;
+    display: flex;
+    border-radius: .5rem;
+}
+
+.mainImage img {
+    width: 85%;
+    margin: auto;
+}
+
+.productDetails {
+    width: 45%;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    margin-left: 2rem;
+}
+
+.productName {
+    font-size: 1.8rem;
+    font-weight: 600;
+}
+
+.details {
+    display: flex;
+    flex-direction: column;
+}
+
+.details span {
+    font-size: 1.2rem;
+}
+
+.details span span {
+    margin: 0 .8rem;
+}
+
+.seller {
+    display: flex;
+    justify-content: space-between;
+    margin: .6rem 0;
+}
+
+.seller span {
+    font-size: 1.4rem;
+    font-weight: 600;
+}
+
+.seller span span {
+    font-weight: 400;
+}
+
+.sellerBtn {
+    margin: .1rem 0;
+}
+
+.specification {
+    display: flex;
+    flex-direction: column;
+}
+
+.specification span span {
+    margin: 0 2rem;
+}
+
+.tab {
+    width: 95%;
+    margin: auto;
+    margin-top: 2rem;
+}
+
+.tabinfo {
+    width: 95%;
+    border: .3px solid wheat;
+    margin: 2rem auto;
+    border-radius: .4rem;
+}
+
+.tabItem {
+    background-color: transparent;
+}
+
+.bg {
+    background-color: rgb(62, 30, 90);
+    color: white;
+}
+
+.description {
+    width: 95%;
+    display: flex;
+    margin: auto;
+    align-items: center;
+    justify-content: center;
+    margin-top: 2rem;
+}
+
+.pr_details {
+    width: 50%;
+}
+
+.pr_image {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+}
+
+.pr_image img {
+    width: 60%;
+}
+
+.reviews {
+    margin: 1rem;
+}
+
+.customer {
+    border: .2px solid;
+    padding: .6rem .4rem;
+    display: flex;
+    justify-content: space-between;
+}
+
+.compare {
+    width: 60%;
+    margin: auto;
+}
+
+.questions {
+    width: 60%;
+    margin: 2rem auto;
+}
+
+.email_card {
+    z-index: 2000;
+}
+
+.viewHeading {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 90vh;
+    font-size: 2.4rem;
+    font-weight: 800;
+}
